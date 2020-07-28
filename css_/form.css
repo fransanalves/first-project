@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fontes_/Montserrat-Regular.ttf");
+    font-size: 1rem;
+}
+
+.section {
+    margin-top: 3rem;
+}
+
+.has-text-centered, .label {
+    color: #0B7572!important;
+}
+
+.btn-form {
+    background: #0B7572!important;
+}

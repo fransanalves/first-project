@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fontes_/Montserrat-Regular.ttf");
+    font-size: 1rem;
+}
+
+/* Conteúdo */
+body {
+    color: #0B7572;
+    font-family: "Montserrat";
+    background: #faf6f6;   
+}
+
+/* Header */
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    background: #ECE5CE;
+    padding: .8rem;   
+}
+
+.cabecalho-itens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-img {
+    margin-left: 500px;
+
+}
+
+.icon-redes-sociais {
+    color: #0B7572;
+    width: 40px!important;
+    height: 40px!important;
+    border: 1px solid #0B7572;
+    border-radius: .3rem;
+    padding: 3px; 
+    margin: 0 .3rem;   
+}
+
+.icon-redes-sociais:hover {
+    background-color: #F9B1C3;
+}
+
+/* Menu de navegação */
+.menu-lista {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.menu-link {
+    color: #0B7572;
+    font-weight: bold;
+    margin: .3rem;
+    padding: .6rem;
+    border: 1px solid #0B7572;
+    border-radius: .3rem;
+    
+}
+
+.menu-link:hover {
+    color: #0B7572;
+    background-color: #F9B1C3;
+    text-decoration: none;
+}
+
+/* Rodapé */
+.rodape {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ECE5CE;
+    padding: 4rem;
+    
+}
+
+.rodape-local {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.local-itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.local-info {
+    margin: 0 1.5rem;
+    color: #0B7572;
+    line-height: 1.5rem;
+}
+
+.rodape-icon {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0B7572;
+}
+
+.copyright {
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: .8rem;
+}
+
+
+
+
