@@ -10,14 +10,14 @@
     box-sizing: border-box;
 }
 
-/* Conteúdo */
+
 body {
     color: #0B7572;
     font-family: "Montserrat";
     background: #faf6f6;   
 }
 
-/* Header */
+
 .cabecalho {
     display: flex;
     justify-content: space-around;
@@ -40,7 +40,6 @@ body {
     background-color: #F9B1C3;
 }
 
-/* Menu de navegação */
 .menu-lista {
     display: flex;
     margin-bottom: 0;
@@ -64,8 +63,6 @@ body {
     background-color: #F9B1C3;
     text-decoration: none;
 }
-
-/* Rodapé */
 
 .rodape-maior {
     display: flex;
