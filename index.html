@@ -5,45 +5,46 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Luiza Silva Nails</title>
+        <title>Luiza Silva Nails Designer</title>
         <link href="css_/bootstrap.min.css" rel="stylesheet">
         <link href="css_/bulma.min.css" rel="stylesheet">
-        <link href="css_/normalize.css" rel="stylesheet">
-        <link href="css_/reset.css" rel="stylesheet">
-        <link href="css_/estilos.css" rel="stylesheet">
+        <link href="css_/style.css" rel="stylesheet">
     </head>
 
     <body>
-
+        <!-- Header -->
         <header class="cabecalho">
-            <div class="cabecalho-itens">
-                <div class="itens-redes-sociais">
-                    <a href="" class="link-redes-sociais">
+
+            <!-- Redes sociais--> 
+            <ul class="menu-lista">
+                <li class="menu-item">
+                    <a href="#" class="link-redes-sociais">
                         <i class="fab fa-instagram icon-redes-sociais"></i>
                     </a>
-                </div>
-                <div class="itens-redes-sociais">
-                    <a href="" class="link-redes-sociais">
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="link-redes-sociais">
                         <i class="fab fa-facebook-f icon-redes-sociais"></i>
                     </a>
-                </div>
-                <div class="itens-redes-sociais">
-                    <a href="" class="link-redes-sociais">
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="link-redes-sociais">
                         <i class="fab fa-whatsapp icon-redes-sociais"></i>
                     </a>
-                </div>
-                <div class="itens-redes-sociais">
-                    <a href="" class="link-redes-sociais">
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="link-redes-sociais">
                         <i class="far fa-envelope icon-redes-sociais"></i> 
                     </a>
-                </div>
-            </div>
-            <div class="container">
-                <div class="logomarca">
-                    <a href="index.html"><img src="img_/flower-logo.png" class="logo-img" alt="logomarca"></a>
-                </div>
+                </li>
+            </ul>
+            
+            <!-- Imagem logo-->
+            <div class="logomarca">
+                <a href="index.html"><img src="img_/flower-logo.png" class="logo-img" alt="logomarca"></a>
             </div>
 
+            <!-- Menu de navegação-->
             <nav class="menu">
                 <ul class="menu-lista">
                     <li class="menu-item">
@@ -52,17 +53,17 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a class="menu-link" href="#">
+                        <a class="menu-link" href="about.html">
                             Sobre Mim
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a class="menu-link" href="galeria.html">
+                        <a class="menu-link" href="gallery.html">
                             Galeria
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a class="menu-link" href="formulario.html">
+                        <a class="menu-link" href="form.html">
                             Contato
                         </a>
                     </li>
@@ -70,6 +71,7 @@
             </nav>
         </header>
 
+        <!-- Carousel -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
             <ol class="carousel-indicators">
@@ -113,33 +115,44 @@
             </a>
         </div>
 
+        <!-- Footer -->
         <footer class="rodape">
-            <div class="rodape-local">
-                <div class="local-itens">
-                    <p class="local-info"> LS Nails Designer<br>CNPJ: 00.0000.000/0000-00<br></p>
+            <div class="rodape-maior">
+                <div class="itens-rodape-maior">
+                    <p class="titulo-rodape-maior"><i class="fa fa-map-marker-alt"></i> Endereço</p>
+                    <p class="paragrafo-rodape-maior">
+                        Rua Osvaldo Cruz, 100<br> Ananindeua-PA
+                    </p>
                 </div>
-    
-                <div class="local-itens">
-                    <p class="local-info"> Rua Sem Numero, s/n<br> CEP: 00000-000<br></p>
-                </div>
-    
-                 <div class="local-itens">
-                    <p class="local-info">
-                        <i class="far fa-envelope rodape-icon"></i> Email: lsnailsdesigner@lsnailsdesigner.com.br <br>
-                        <i class="fab fa-whatsapp rodape-icon"></i> (00) 00000-0000
-                    </p>              
-                </div>            
-            </div>
-        </footer>
 
-        <div class="copyright">
-            <p>
-                Todos os direitos reservados &copy; 2020
-            </p>
-            <p>
-                Feito com &#9825; por Fran Alves &#127800;
-            </p>
-        </div>
+                <div class="itens-rodape-maior">
+                    <p class="titulo-rodape-maior"><i class="far fa-clock"></i> Horário de Atendimento</p>
+                    <p class="paragrafo-rodape-maior">
+                        Segunda-feira à Sexta-feira<br>10:00h às 18:00h<br>
+                    </p>        
+                </div>
+
+                <div class="itens-rodape-maior">
+                    <p class="titulo-rodape-maior"><i class="fas fa-users"></i> Fale Conosco</p>
+                    <p class="paragrafo-rodape-maior">
+                        Email: lsnailsdesigner@hotmail.com.br<br>
+                        Telefone: (00) 00000-0000
+                    </p>
+                </div>
+            </div>
+
+            <div class="rodape-menor">
+                <div class="itens-rodape-menor">  
+                    <p class="paragrafo-rodape-menor">
+                        Todos os direitos reservados &copy; 2020
+                    </p>
+                    <p class="paragrafo-rodape-menor">
+                        Feito com &#9825; por Fran Alves &#127800;
+                    </p> 
+                </div>
+            </div> 
+
+        </footer>
 
         <script src="js_/jquery-3.3.1.slim.min.js"></script>
         <script src="js_/popper.min.js"></script>
