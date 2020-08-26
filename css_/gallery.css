@@ -5,34 +5,22 @@
     box-sizing: border-box;
 }
 
-.titulo-principal {
-    color: #0B7572;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;  
-    margin-top: 3rem;
-    text-decoration: underline;    
-}
-
-.row-galeria {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-bottom: 3rem;
-}
-
-.galeria-img {
-    margin: 1rem;
+.gallery-img {
+    max-width: 100%;
+    margin: .4rem 0;
     transform: rotate(1.1);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.23);
 }
+.last-gallery {
+    margin-bottom: 2rem;
+}
 
-.galeria-img:hover {
+/*
+.gallery-img:hover {
     filter: grayscale(85%);
     transform: scale(1.1);
 }
+*/
 
 
 

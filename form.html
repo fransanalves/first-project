@@ -5,155 +5,108 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Luiza Silva Nails Designer</title>
-        <link href="css_/bootstrap.min.css" rel="stylesheet">
-        <link href="css_/bulma.min.css" rel="stylesheet">    
+        <link href="css_/bootstrap.min.css" rel="stylesheet">   
         <link href="css_/style.css" rel="stylesheet">
         <link href="css_/form.css" rel="stylesheet">
     </head>
 
     <body>
-        <header class="cabecalho">
-            <ul class="menu-lista">
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="fab fa-instagram icon-redes-sociais"></i>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="fab fa-facebook-f icon-redes-sociais"></i>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="fab fa-whatsapp icon-redes-sociais"></i>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="far fa-envelope icon-redes-sociais"></i> 
-                    </a>
-                </li>
-            </ul>
-
-            <div class="logomarca">
-                <a href="index.html"><img src="img_/flower-logo.png" class="logo-img" alt="logomarca"></a>
-            </div>
-
-            <nav class="menu">
-                <ul class="menu-lista">
-                    <li class="menu-item">
-                        <a class="menu-link" href="index.html">
-                            Home
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a class="menu-link" href="about.html">
-                            Sobre Mim
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a class="menu-link" href="gallery.html">
-                            Galeria
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a class="menu-link" href="form.html">
-                            Contato
-                        </a>
-                    </li>
-                </ul>
+        <header class="container-fluid header-nav">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img_/flower-logo.png" width="200" height="100" alt="logomarca">
+                </a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav nav-menu">
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="about.html">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="gallery.html">Galeria</a>
+                        </li>
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="form.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
-        <section class="section">
-            <div class="container">
-                <div class="columns is-centered">
-                    <div class="column is-half">
-                        <h1 class="title has-text-centered">Formulário de Contato</h1>
+        <main class="container principal-form">
+            <form action="/" id="form-contato" method="POST">
+                <fieldset>
+                    <legend class="title-principal">Seus dados</legend>
 
-                        <form action="#" method="POST">
-                            <div class="field">
-                                <label class="label">Nome</label>
-                                <div class="control">
-                                    <input name="nome" class="input" type="text" placeholder="Seu nome">
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <label class="label">Email</label>
-                                <div class="control">
-                                    <input name="email" class="input" type="email" placeholder="Seu e-mail">
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <label class="label">Telefone</label>
-                                <div class="control">
-                                    <input name="telefone" class="input" type="telefone" placeholder="Seu telefone">
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <label class="label">Mensagem</label>
-                                <div class="control">
-                                    <textarea name="mensagem" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
-                                </div>
-                            </div>
-
-                            <div class="field">
-                                <div class="control">
-                                    <button class="button is-link is-medium btn-form">Enviar</button>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="input-block">
+                        <label for="name">Nome completo</label>
+                        <input name="name" id="name" type="text" placeholder="Insira o seu nome" required>
                     </div>
-                </div>
-            </div>
-        </section>
 
-        <footer class="rodape">
-            <div class="rodape-maior">
-                <div class="itens-rodape-maior">
-                    <p class="titulo-rodape-maior"><i class="fa fa-map-marker-alt"></i> Endereço</p>
-                    <p class="paragrafo-rodape-maior">
+                    <div class="input-block">
+                        <label for="email">E-mail</label>
+                        <input name="email" id="email" type="email" placeholder="Insira o seu e-mail"required>
+                    </div>
+
+                    <div class="input-block">
+                        <label for="whatsapp">whatsapp <small>(somente números)</small></label>
+                        <input name="whatsapp" id="whatsapp" type="number" placeholder="Insira o seu whatsapp" required>
+                    </div>
+                    <div class="textarea-block">
+                        <label for="bio">Mensagem</label>
+                        <textarea name="mensagem" id="mensagem" placeholder="Insira a sua mensagem" required></textarea>
+                    </div>
+
+                </fieldset>
+
+                <footer class="footer-block">
+                    <button type="submit" form="form-contato">Enviar mensagem</button>
+                </footer>
+
+            </form>
+        </main>
+
+        <footer class="footer-geral">
+            <section class="footer-lg">
+                <article class="items-footer-lg">
+                    <h5 class="title-footer-lg"><i class="fa fa-map-marker-alt"></i> Endereço</h5>
+                    <p class="p-footer-lg">
                         Rua Osvaldo Cruz, 100<br> Ananindeua-PA
                     </p>
-                </div>
-
-                <div class="itens-rodape-maior">
-                    <p class="titulo-rodape-maior"><i class="far fa-clock"></i> Horário de Atendimento</p>
-                    <p class="paragrafo-rodape-maior">
+                </article>
+    
+                <article class="items-footer-lg">
+                    <h5 class="title-footer-lg"><i class="far fa-clock"></i> Horário de Atendimento</h5>
+                    <p class="p-footer-lg">
                         Segunda-feira à Sexta-feira<br>10:00h às 18:00h<br>
                     </p>        
-                </div>
-
-                <div class="itens-rodape-maior">
-                    <p class="titulo-rodape-maior"><i class="fas fa-users"></i> Fale Conosco</p>
-                    <p class="paragrafo-rodape-maior">
+                </article>
+    
+                <article class="items-footer-lg last-article">
+                    <h5 class="title-footer-lg"><i class="fas fa-users"></i> Fale Conosco</h5>
+                    <p class="p-footer-lg">
                         Email: lsnailsdesigner@hotmail.com.br<br>
                         Telefone: (00) 00000-0000
                     </p>
-                </div>
-            </div>
-
-            <div class="rodape-menor">
-                <div class="itens-rodape-menor">  
-                    <p class="paragrafo-rodape-menor">
+                </article>
+            </section>
+    
+            <section class="footer-sm">
+                <div class="items-footer-sm">  
+                    <p class="first-p-footer-sm">
                         Todos os direitos reservados &copy; 2020
                     </p>
-
-                    <p class="paragrafo-rodape-menor">
+                    <p class="secondy-p-footer-sm">
                         Feito com &#9825; por Fran Alves &#127800;
                     </p> 
                 </div>
-            </div> 
+            </section> 
         </footer>
 
         <script src="js_/jquery-3.3.1.slim.min.js"></script>

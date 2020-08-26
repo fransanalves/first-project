@@ -7,72 +7,39 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Luiza Silva Nails Designer</title>
         <link href="css_/bootstrap.min.css" rel="stylesheet">
-        <link href="css_/bulma.min.css" rel="stylesheet">
         <link href="css_/style.css" rel="stylesheet">
     </head>
 
     <body>
-        <header class="cabecalho">
-            <ul class="menu-lista">
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="fab fa-instagram icon-redes-sociais"></i>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="fab fa-facebook-f icon-redes-sociais"></i>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="fab fa-whatsapp icon-redes-sociais"></i>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="#" class="link-redes-sociais">
-                        <i class="far fa-envelope icon-redes-sociais"></i> 
-                    </a>
-                </li>
-            </ul>
-
-            <div class="logomarca">
-                <a href="index.html"><img src="img_/flower-logo.png" class="logo-img" alt="logomarca"></a>
-            </div>
-
-            <nav class="menu">
-                <ul class="menu-lista">
-                    <li class="menu-item">
-                        <a class="menu-link" href="index.html">
-                            Home
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a class="menu-link" href="about.html">
-                            Sobre Mim
-                        </a>
-                    </li>
-
-                    <li class="menu-item">
-                        <a class="menu-link" href="gallery.html">
-                            Galeria
-                        </a>
-                    </li>
-                    
-                    <li class="menu-item">
-                        <a class="menu-link" href="form.html">
-                            Contato
-                        </a>
-                    </li>
-                </ul>
+        <header class="container-fluid header-nav">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img_/flower-logo.png" width="200" height="100" alt="logomarca">
+                </a>
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav nav-menu">
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="about.html">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="gallery.html">Galeria</a>
+                        </li>
+                        <li class="nav-item nav-list">
+                            <a class="nav-link link-list" href="form.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000">
 
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -82,25 +49,25 @@
     
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="img_/image1.jpeg" alt="Primeiro Slide">
+                <img class="d-block w-100 image-carousel" src="img_/image1.jpeg" alt="Primeiro Slide">
               </div>
     
               <div class="carousel-item">
-                <img class="d-block w-100" src="img_/image6.jpeg" alt="Segundo Slide">
+                <img class="d-block w-100 image-carousel" src="img_/image6.jpeg" alt="Segundo Slide">
               </div>
     
               <div class="carousel-item">
-                <img class="d-block w-100" src="img_/image7.jpeg" alt="Terceiro Slide">
+                <img class="d-block w-100 image-carousel" src="img_/image7.jpeg" alt="Terceiro Slide">
               </div>
 
               <div class="carousel-item">
-                <img class="d-block w-100" src="img_/image8.jpeg" alt="Quarto Slide">
+                <img class="d-block w-100 image-carousel" src="img_/image8.jpeg" alt="Quarto Slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img_/image11.jpeg" alt="Quinto Slide">
+                <img class="d-block w-100 image-carousel" src="img_/image11.jpeg" alt="Quinto Slide">
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="img_/image9.jpeg" alt="Sexto Slide">
+                <img class="d-block w-100 image-carousel" src="img_/image9.jpeg" alt="Sexto Slide">
               </div>
             </div>
     
@@ -114,42 +81,85 @@
               <span class="sr-only">Próximo</span>
             </a>
         </div>
-
-        <footer class="rodape">
-            <div class="rodape-maior">
-                <div class="itens-rodape-maior">
-                    <p class="titulo-rodape-maior"><i class="fa fa-map-marker-alt"></i> Endereço</p>
-                    <p class="paragrafo-rodape-maior">
+        <section class="container">
+            <article>
+                <h2 class="title-principal">Unhas em Gel</h2>
+                <img class="img-article" src="img_/unhas-gel.png" alt="Unhas em gel">
+                <p class="p-article">São unhas artificiais moldadas sob a unha natural. 
+                Feitas de gel UV, que precisam de cabine de luz 
+                Ultra Violeta para curar o gel e possuem como 
+                extensão o próprio gel sob um molde adesivo ou 
+                então tips com cola (unhas postiças cuja função 
+                é dar alongamento para a unha de gel).</p>
+                <p class="p-article">Super recomendáveis para quem tem unhas quebradas,
+                lascadas, roídas obsessivamente, curtas e vítimas 
+                de pequenos acidentes, como danificar alguma as 
+                vésperas de um evento importante.</p>
+                <p class="p-article">Após moldadas e submetidas à luz ultravioleta, a 
+                luminosidade faz com que o gel fixe-se e endureça 
+                mais rápido no processo. Por isso, ela é uma grande 
+                e famosa aliada em tantos casos de emergência da beleza.</p>
+                <p class="p-article">Há situações em que o gel UV é usado somente para proteger 
+                as unhas, fazendo com que durem mais, aplicando-o sob elas 
+                naturalmente, sem extensões. Para isso, é preciso que a 
+                unha já esteja grande. Lembrando também que é considerado 
+                o procedimento de efeito mais original.</p>
+            </article>
+            <article>
+                <h2 class="title-principal">Unhas Acrigel</h2>
+                <img class="img-article" src="img_/unhas-acrigel.png" alt="Unhas em acrigel">
+                <p class="p-article">As unhas Acrigel são unhas artificiais moldadas diretamente 
+                sobre a unha natural, alongadas com tips (implantes de unha), 
+                geralmente de plástico “ABS” e uma mistura feita a base de pó 
+                de acrílico com gel, que é aplicada em cima da unha natural, 
+                deixando-a mais resistente e menos quebradiça.</p>
+                <p class="p-article">É indicado para mulheres que querem ter unhas longas, 
+                mas não conseguem mantê-las crescidas, seja por terem as u
+                nhas fracas, quebradiças ou pelo hábito de roê-las.</p>
+                <p class="p-article last-p">
+                Essa técnica, mescla técnicas da unha em gel e 
+                acrílica. No entanto as unhas Acrigel conferem um resultado 
+                superior, alcançando um aspecto muito similar às unhas naturais 
+                com maior durabilidade e resistência.
+                </p>
+            </article>
+        </section>
+        
+        <footer class="footer-geral">
+            <section class="footer-lg">
+                <div class="items-footer-lg">
+                    <h5 class="title-footer-lg"><i class="fa fa-map-marker-alt"></i> Endereço</h5>
+                    <p class="p-footer-lg">
                         Rua Osvaldo Cruz, 100<br> Ananindeua-PA
                     </p>
                 </div>
 
-                <div class="itens-rodape-maior">
-                    <p class="titulo-rodape-maior"><i class="far fa-clock"></i> Horário de Atendimento</p>
-                    <p class="paragrafo-rodape-maior">
+                <div class="items-footer-lg">
+                    <h5 class="title-footer-lg"><i class="far fa-clock"></i> Horário de Atendimento</h5>
+                    <p class="p-footer-lg">
                         Segunda-feira à Sexta-feira<br>10:00h às 18:00h<br>
                     </p>        
                 </div>
 
-                <div class="itens-rodape-maior">
-                    <p class="titulo-rodape-maior"><i class="fas fa-users"></i> Fale Conosco</p>
-                    <p class="paragrafo-rodape-maior">
+                <div class="items-footer-lg last-article">
+                    <h5 class="title-footer-lg"><i class="fas fa-users"></i> Fale Conosco</h5>
+                    <p class="p-footer-lg">
                         Email: lsnailsdesigner@hotmail.com.br<br>
                         Telefone: (00) 00000-0000
                     </p>
                 </div>
-            </div>
+            </section>
 
-            <div class="rodape-menor">
-                <div class="itens-rodape-menor">  
-                    <p class="paragrafo-rodape-menor">
+            <section class="footer-sm">
+                <div class="items-footer-sm">  
+                    <p class="first-p-footer-sm">
                         Todos os direitos reservados &copy; 2020
                     </p>
-                    <p class="paragrafo-rodape-menor">
+                    <p class="secondy-p-footer-sm">
                         Feito com &#9825; por Fran Alves &#127800;
                     </p> 
                 </div>
-            </div> 
+            </section> 
         </footer>
 
         <script src="js_/jquery-3.3.1.slim.min.js"></script>
