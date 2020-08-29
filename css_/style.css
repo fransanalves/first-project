@@ -1,6 +1,11 @@
 @font-face {
-    font-family: "Montserrat";
-    src: url("../fontes_/Montserrat-Regular.ttf");
+    font-family: "ElMessiri";
+    src: url("../fontes_/ElMessiri-Regular.ttf");
+    font-size: 1rem;
+}
+@font-face {
+    font-family: "Neucha";
+    src: url("../fontes_/Neucha-Regular.ttf");
     font-size: 1rem;
 }
 
@@ -12,7 +17,7 @@
 
 body {
     color: #0B7572;
-    font-family: "Montserrat";
+    font-family: "ElMessiri";
     background: #faf6f6;   
 }
 
@@ -22,9 +27,17 @@ body {
     padding-right: 0;
 }
 
+.carousel {
+    margin-top: 7rem;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #0B7572;
     font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f4acb7;
 }
 
 .navbar-light .navbar-toggler {
@@ -33,6 +46,7 @@ body {
 }
 
 .title-principal {
+    font-family: "Neucha";
     font-weight: bold;
     text-align: center;
     margin: 2rem 0 1rem 0;
@@ -91,8 +105,16 @@ body {
     text-align: center;
     font-size: .8rem;
 }
+
 .first-p-footer-sm {
     padding-top: .6rem;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 428px) {
+    .img-article {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -112,6 +134,9 @@ body {
 
     .col-3, .col-4, .col-5 {
         padding: 3rem 0 0 0;
+    }
+    .img-article {
+        width: 100%;
     }
 
 }
