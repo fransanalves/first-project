@@ -1,16 +1,7 @@
 .container {
-    margin-top: 12rem;
+    margin-top: 10rem;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: #0B7572;
-    font-weight: bold;
-}
-
-.navbar-light .navbar-toggler {
-    border-color: rgba(255,192,203 ,1 );
-    padding: .2rem .3rem;
-}
 
 
 

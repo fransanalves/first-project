@@ -9,6 +9,12 @@
     font-size: 1rem;
 }
 
+@font-face {
+    font-family: "AlexBrush";
+    src: url("../fontes_/AlexBrush-Regular.ttf");
+    font-size: 1rem;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,15 +22,49 @@
 }
 
 body {
-    color: #0B7572;
+    color: #6805A2;
     font-family: "ElMessiri";
-    background: #faf6f6;   
+    background-color: #eff1f3;
+     
 }
 
 .header-nav {
-    background: #ECE5CE;
+    background: #ded9e2;
     padding-left: 0;
     padding-right: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+}
+
+.img-icons {
+    width: 100px;
+    height: 100px;
+}
+
+.logo {
+    font-size: 2.3rem;
+}
+
+.logo, .sub-logo {
+    font-weight: bold;
+    color: #6805A2;
+    margin-bottom: 0;
+    font-family: "AlexBrush";
+    margin-left: -.93rem;
+}
+
+.logo:hover, .sub-logo:hover {
+    color: #d72483;
+}
+.sub-logo {
+    margin-top: 3rem;
+    margin-left: -6.7rem;
 }
 
 .carousel {
@@ -32,21 +72,22 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #0B7572;
+    color: #6805A2;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f4acb7;
+    color: #d72483;
 }
 
 .navbar-light .navbar-toggler {
-    border-color: rgba(255,192,203 ,1 );
+    border-color: rgba(154,135,157 ,1 );
     padding: .2rem .3rem;
 }
 
 .title-principal {
-    font-family: "Neucha";
+    font-family: "ElMessiri";
     font-weight: bold;
     text-align: center;
     margin: 2rem 0 1rem 0;
@@ -69,7 +110,7 @@ body {
 
 /* Estilo rodapé maior */
 .footer-lg {
-    background-color: #ECE5CE;   
+    background-color: #ded9e2;   
 }
 
 .items-footer-lg {
@@ -92,8 +133,7 @@ body {
 /* Estilo rodapé menor */
 .footer-sm {
     text-align: center;
-    background-color: #E8E8C4;
-    border-top: 1px solid #D4D6D5;
+    background-color: #dbd3d8;
 }
 
 .items-footer-sm {
