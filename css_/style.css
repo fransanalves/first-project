@@ -22,7 +22,7 @@
 }
 
 body {
-    color: #715998;
+    color: #572b7e;
     font-family: "ElMessiri";
     background-color: #eff1f3;
      
@@ -53,7 +53,7 @@ body {
 
 .logo, .sub-logo {
     font-weight: bold;
-    color: #715998;
+    color: #572b7e;
     margin-bottom: 0;
     font-family: "AlexBrush";
     margin-left: -.93rem;
@@ -62,6 +62,7 @@ body {
 .logo:hover, .sub-logo:hover {
     color: #d72483;
 }
+
 .sub-logo {
     margin-top: 3rem;
     margin-left: -6.7rem;
@@ -72,7 +73,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #715998;
+    color: #572b7e;
     font-weight: bold;
     font-size: 1.3rem;
 }
@@ -82,7 +83,7 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-    border-color: rgba(113,89,152,1 );
+    border-color: rgba(87, 43, 126, 1 );
     padding: .2rem .3rem;
 }
 
@@ -109,46 +110,61 @@ body {
 }
 
 /* Estilo rodapé maior */
-.footer-lg {
+.footer-geral {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-lg {
     background-color: #ded9e2;   
 }
 
-.items-footer-lg {
+.list-lg {
     text-align: center;  
-}
-
-.last-article {
-    padding-bottom: 1.8rem; 
-}
-
-.title-footer-lg {
-    font-weight: bold;
-    padding-top: 2rem;
-}
-
-.p-footer-lg {
+    padding-bottom: 1rem;
     margin-bottom: 0;
 }
 
+.items-lg-title {
+    font-weight: bold;
+}
+
+.title-first {
+    padding-top: 1.45rem;
+}
+
+
 /* Estilo rodapé menor */
-.footer-sm {
+.container-sm {
     text-align: center;
     background-color: #dbd3d8;
+    border-top: 1px solid #F9C7E9;
 }
 
-.items-footer-sm {
-    margin-top: .8rem;
-    display: inline-block;
+.first-list {
+    margin-top: 1rem;
 }
 
-.first-p-footer-sm, .secondy-p-footer-sm {
-    text-align: center;
+.list-sm, .redes-sociais {
+    list-style: none;
+    margin-bottom: .3rem;
+}
+
+.items-sm {
     font-size: .8rem;
 }
 
-.first-p-footer-sm {
-    padding-top: .6rem;
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    margin-left: 8rem;
     margin-bottom: 0;
+}
+
+.icon-footer {
+    color: #572b7e;
+    font-size: 1.4rem;
+    margin: 0 1rem 0 .99rem;
 }
 
 @media screen and (min-width: 428px) {
@@ -180,6 +196,13 @@ body {
     }
 
 }
-    
+   
+/*
+.footer-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
 
     
