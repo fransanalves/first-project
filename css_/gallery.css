@@ -4,10 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .row {
     margin-left: 0;
     margin-right: 0;
 }
+
 .gallery {
     margin-top: 10rem;
 }
@@ -22,7 +24,7 @@
 .last-gallery {
     margin-bottom: 2rem;
 }
-
+/*
 @media screen and (min-width: 458px) {
     .row {
         flex-direction: column;
@@ -33,9 +35,10 @@
         width: 100%;
     }
 }
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 628px) {
     .container {
-        max-width: 568px;
+        display: flex;
         padding-left: 0;
         padding-right: 0;
         margin-right: 0;
