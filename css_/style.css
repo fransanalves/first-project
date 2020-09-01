@@ -176,7 +176,10 @@ body {
 .icon-footer {
     color: #572b7e;
     font-size: 1.8rem;
+}
 
+.icon-footer:hover {
+    color: #d72483;
 }
 /*
 @media screen and (min-width: 428px) {
