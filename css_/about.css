@@ -1,8 +1,28 @@
-.container {
-    margin-top: 10rem;
+.about-me {
+    margin-top: 160px;
 }
 
+.title-about-me {
+    text-align: center;
+    font-size: 24px;
+}
 
+.container-img {
+    display: flex;
+    justify-content: center;
+}
 
+.img-about-me {
+    width: 600px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.23)
+}
 
+.p-about-me {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
 
+.last-p {
+    margin-bottom: 30px;
+}

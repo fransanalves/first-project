@@ -1,18 +1,18 @@
 @font-face {
     font-family: "ElMessiri";
     src: url("../fontes_/ElMessiri-Regular.ttf");
-    font-size: 1rem;
+    font-size: 16px;
 }
 @font-face {
     font-family: "Neucha";
     src: url("../fontes_/Neucha-Regular.ttf");
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 @font-face {
     font-family: "AlexBrush";
     src: url("../fontes_/AlexBrush-Regular.ttf");
-    font-size: 1rem;
+    font-size: 16px;
 }
 
 * {
@@ -25,7 +25,6 @@ body {
     color: #572b7e;
     font-family: "ElMessiri";
     background-color: #eff1f3;
-     
 }
 
 .header-nav {
@@ -48,7 +47,7 @@ body {
 }
 
 .logo {
-    font-size: 2.3rem;
+    font-size: 32px;
 }
 
 .logo, .sub-logo {
@@ -56,7 +55,7 @@ body {
     color: #572b7e;
     margin-bottom: 0;
     font-family: "AlexBrush";
-    margin-left: -.93rem;
+    margin-left: -10px;
 }
 
 .logo:hover, .sub-logo:hover {
@@ -64,12 +63,8 @@ body {
 }
 
 .sub-logo {
-    margin-top: 3rem;
-    margin-left: -6.7rem;
-}
-
-.carousel {
-    margin-top: 7rem;
+    margin-top: 44px;
+    margin-left: -105px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -87,29 +82,33 @@ body {
     padding: .2rem .3rem;
 }
 
-.title-principal {
-    font-family: "ElMessiri";
-    font-weight: bold;
+.title-home {
+    font-size: 24px;
     text-align: center;
-    margin: 2rem 0 1rem 0;
-    font-size: 1.8rem;
+    margin-top: 40px;
 }
 
-.img-article {
-    max-width: 100%;
-    margin-bottom: 2rem;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.23)
+.container-img {
+    display: flex;
+    justify-content: center;
 }
 
-.p-article {
-    font-size: 1.2rem;
+.img-home {
+    width: 600px;
+}
+
+.container-p-home {
+    margin-top: 30px;
+}
+
+.p-home {
+    margin-bottom: 5px;
 }
 
 .last-p {
-    margin-bottom: 3rem;
+    margin-bottom: 50px;
 }
 
-/* Estilo rodapé maior */
 .footer-geral {
     padding-left: 0;
     padding-right: 0;
@@ -133,8 +132,6 @@ body {
     padding-top: 1.45rem;
 }
 
-
-/* Estilo rodapé menor */
 .container-sm {
     text-align: center;
     background-color: #dbd3d8;
@@ -181,18 +178,13 @@ body {
 .icon-footer:hover {
     color: #d72483;
 }
-/*
+
 @media screen and (min-width: 428px) {
     .img-article {
         width: 100%;
     }
 }
-.footer-sm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
+
 @media screen and (min-width: 768px) {
     .footer-lg {
         display: flex;
@@ -208,11 +200,4 @@ body {
     .img-article {
         width: 100%;
     }
-
 }
-
-
-
-
-
-    

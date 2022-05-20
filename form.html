@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
         <link href="css_/style.css" rel="stylesheet">
         <link href="css_/form.css" rel="stylesheet">
     </head>
-
     <body>
         <header class="container-fluid header-nav fixed-top">
             <nav class="navbar navbar-expand-lg navbar-light nav-principal">
@@ -21,7 +19,6 @@
                 <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-            
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav nav-menu">
                         <li class="nav-item nav-list">
@@ -40,22 +37,18 @@
                 </div>
             </nav>
         </header>
-
-        <main class="container principal-form">
+        <main class="container form">
             <form action="/" id="form-contato" method="POST">
                 <fieldset>
-                    <legend class="title-principal">Envie sua mensagem</legend>
-
+                    <legend class="title-form">Envie sua mensagem</legend>
                     <div class="input-block">
                         <label for="name">Nome completo</label>
                         <input name="name" id="name" type="text" placeholder="Insira o seu nome" required>
                     </div>
-
                     <div class="input-block">
                         <label for="email">E-mail</label>
                         <input name="email" id="email" type="email" placeholder="Insira o seu e-mail"required>
                     </div>
-
                     <div class="input-block">
                         <label for="whatsapp">whatsapp <small>(somente números)</small></label>
                         <input name="whatsapp" id="whatsapp" type="number" placeholder="Insira o seu whatsapp" required>
@@ -64,16 +57,12 @@
                         <label for="bio">Mensagem</label>
                         <textarea name="mensagem" id="mensagem" placeholder="Insira a sua mensagem" required></textarea>
                     </div>
-
                 </fieldset>
-
                 <div class="container-button">
                     <button class="button" type="submit" form="form-contato">Enviar mensagem</button>
                 </div>
-
             </form>
         </main>
-
         <footer class="footer-geral container-fluid">
             <div class="container-lg">
                 <footer class="footer-lg">
@@ -83,14 +72,12 @@
                             Rua Osvaldo Cruz, 100<br> Ananindeua-PA
                         </li>
                     </ul>
-
                     <ul class="list-lg">
                         <li class="items-lg-title"><i class="far fa-clock"></i> Horário de Atendimento</li>
                         <li class="items-lg">
                             Segunda-feira à Sexta-feira<br>10:00h às 18:00h<br>
                         </li>        
                     </ul>
-
                     <ul class="list-lg last-list">
                         <li class="items-lg-title"><i class="fas fa-users"></i> Fale Conosco</li>
                         <li class="items-lg">
@@ -127,12 +114,9 @@
                 </ul>
             </div>
         </footer>
-
         <script src="js_/jquery-3.3.1.slim.min.js"></script>
         <script src="js_/popper.min.js"></script>
         <script src="js_/bootstrap.min.js"></script> 
         <script src="js_/fontawesome.all.min.js"></script> 
-
     </body>
-
 </html>
